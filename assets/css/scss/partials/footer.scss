@@ -1,0 +1,11 @@
+footer {
+    .footer-wrapper {
+        border-top: solid 2px $gray;
+        max-width: 746px;
+        padding-bottom: 1em;
+    }
+    p {
+        font-size: 0.7em;
+        line-height: 1.1em;
+    }
+}

@@ -1,0 +1,104 @@
+body {
+    background: url("../img/bg-shire.jpg")  center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.date-time {
+    border-bottom: 2px solid $gray;
+}
+
+.ads fieldset {
+    legend {
+        padding: 0 5px;
+    }
+    a {
+        display: block;
+        margin-bottom: 0.7em;
+    }
+}
+
+.border-wrapper {
+    border-left: 2px solid $gray;
+    border-right: 2px solid $gray;
+}
+
+a {
+    color: $green;
+    &.back {
+        font-size: 1em;
+        display: block;
+        padding: 0 0 0.5em;
+    }
+}
+
+p {
+    display: block;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+.story-wrapper {
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+.story {
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: 2em;
+    // border-bottom: 2px solid $gray;
+    h1 {
+        color: $green;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+    }
+    .meta {
+        padding: 0.5em 0 0;
+        // padding: 0 0 1em;
+        display: block;
+        margin-bottom: 1em;
+    }
+    a {
+        text-decoration: underline;
+    }
+    ul {
+        li {
+            padding: 0 0 1em;
+        }
+    }
+
+}
+
+.movies {
+    h3 {
+        background: $green;
+        color: $white;
+        text-transform: uppercase;
+        padding: .5em;
+        margin-bottom: 0.25em;
+        line-height: 1em;
+        font-size: 1.75em;
+    }
+    .story {
+        border: none;
+    }
+}
+
+.feed {
+    article {
+        h1 {
+            font-size: 1.25em;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

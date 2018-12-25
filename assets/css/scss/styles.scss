@@ -1,0 +1,29 @@
+// sass --watch scss/styles.scss:styles.css
+/*
+    ===========================
+    Libs
+    ===========================
+*/
+@import "libs/normalize";
+
+/*
+    ===========================
+    Settings/Config/Mixins
+    ===========================
+*/
+
+@import "partials/config";
+@import "partials/settings";
+@import "partials/utils";
+@import "partials/mixins";
+@import "partials/fonts";
+/*
+    ===========================
+    Main CSS
+    ===========================
+*/
+
+@import "partials/header";
+@import "partials/main";
+@import "partials/durin";
+@import "partials/footer";

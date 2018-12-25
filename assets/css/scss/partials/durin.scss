@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre');
+
+.durin {
+    background: url('../img/durin-stone.jpg') repeat $black;
+    font-family: 'Averia Libre', cursive;
+    color: $white;
+    input {
+        display: block;
+        margin: 1em auto 0;
+        padding: 0.25em;
+        text-align: center;
+    }
+    button {
+        background: #5CD2CF;
+        color: $black;
+        display: inline-block;
+        padding: 0.5em 1em;
+    }
+}
